@@ -1,0 +1,311 @@
+/* Start Reset */
+    img{
+        border-radius: 15px;
+    }
+/* End Reset */
+
+
+
+/* Menu Start */
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+}
+li,
+a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    margin: 2rem;
+}
+
+nav{
+    padding-top: 25px;
+    width: 100%;
+}
+header{
+    display: flex;
+    width: 90%;
+}
+
+.boton-menu{
+    width: 180px;
+    height: 45px;
+    color: #fff;
+    border-radius: 5px;
+    font-family: 'Lato', sans-serif;
+    background: transparent;
+    cursor: pointer;
+}
+.buttoncito{
+    display: flex;
+    place-content: center center;
+    place-items: center center;
+    padding-top: 25px;
+}
+/* End Menu */
+
+    /* Start Main */
+.main-btn{
+    width: 200px;
+    height: 45px;
+    color: #fff;
+    border-radius: 5px;
+    font-family: 'Lato', sans-serif;
+    background-color: black;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: large;
+}
+main{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-content: center;
+    justify-content: space-evenly;
+}
+.left h1{
+    font-size: 80px;
+    margin: 0 auto;
+    width: 10ch;
+}
+.left p{
+    width: 45ch;
+}
+    /* End Main */
+    /* Start Memory */
+    .memory{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 25%;
+        background-color: rgba(24, 23, 23, 0.986);
+        justify-content: center;
+        border-radius: 10px;
+    }
+    .memory p{
+        width: 40ch;
+        color: white;
+    }
+    .memory h2{
+        color: white;
+        font-size: 60px;
+        margin: 0 auto;
+        width: 15ch;
+    }
+    .memory-btn{
+        width: 200px;
+        height: 45px;
+        color: #fff;
+        border-radius: 5px;
+        font-family: 'Lato', sans-serif;
+        background: transparent;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: large;
+        border: 2px white solid;
+        margin-bottom: 25px;
+    }
+    
+    
+    /* End Memory */
+    /* Start Cards */
+    .cards{
+        width: 90%;
+       display: grid;
+       grid-template-columns: 1fr 1fr 1fr;
+       margin: 0 auto;
+        
+        
+    }
+    .cards h2{
+        width: 15ch;
+        font-size: 40px;
+    }
+    .cards p{
+        width: 40ch;
+        font-size: medium;
+    }
+    
+   
+
+    
+    
+    
+    /* End Cards */
+    /* Start Clientes */
+    .caja-cliente{
+        height: 350px;
+        width: 300px;
+        border: 2px solid black;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        margin-right: 20px;
+    }
+    .caja-cliente>img{
+        margin: 0 auto;
+    }
+    .clientes{
+        height: 80vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    
+    /* End Clientes */
+
+    /* Start Form */
+    .formu{
+        margin:50px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+      }
+    .formu h2 {
+        font-size:50px;
+        color: #111F29;
+        padding-top:10px;
+        text-align: center;
+        font-family: Helvetica, Arial, sans-serif;
+        width: 620px;
+      }
+    
+      
+      .f-input::placeholder {
+        color:black;
+        opacity:0.9;
+      }
+      
+      .f-input {
+        background-color: transparent;
+        border:2px solid #111F29;
+        transition: all 0.3s;
+        padding: 13px;
+        margin-bottom: 15px;
+        width: 620px;
+        box-sizing: border-box;
+         color:black;
+        font-family: Helvetica, Arial, sans-serif;
+        font-weight:500;
+        font-size: 18px;
+        border-radius: 4px;
+        line-height: 22px;
+        text-align:left;
+      }
+      
+      .f-input:focus { 
+        border:2px solid #3a3939; }
+      
+      textarea {
+        height: 250px;
+        line-height: 150%;
+        resize:vertical;
+      }
+      
+      .formu button {
+        max-width:620px;
+         font-family: Arial, Helvetica, sans-serif;
+        width: 100%;
+        background:#111F29;
+        border-radius:10px;
+        border:0;
+        cursor:pointer;
+        color:white;
+        font-size:24px;
+        padding-top:10px;
+        padding-bottom:10px;
+      text-align:center;
+        transition: all 0.3s;
+        font-weight:600; 
+      }
+      .formu button:hover {
+       color: yellow; 
+       background:#111F29; 
+      }
+    
+    
+    .formu-container{
+        display: flex;
+        width: 80%;
+        justify-content: center;
+        margin: 0 auto;
+        
+    }
+    /* End Form */
+    /* Responsive Start */
+    @media screen and (max-width: 1650px) {
+        
+        header{
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            margin: 0 auto;
+        }
+
+        main{
+            display: grid;
+            grid-template-columns: 1fr;
+            justify-content: center;
+            width: 100%;
+        }
+        main h1{
+            width: 10ch;
+        }
+        main button{
+            margin: 0 auto;
+        }
+        .right{
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .cards{
+            display: grid;
+            grid-template-columns: 1fr;
+            margin-top: 20px;
+            width: 75%;
+            
+            
+        }
+        .card{
+            display: flex;
+            flex-direction: column;
+            margin: 0 auto;
+            width: 75%;
+            text-align: center;
+            
+        }
+        .formu-container{
+            display: grid;
+            grid-template-columns: 1fr;
+            width: 100%;
+            justify-content: center;
+            justify-items: center;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            justify-content: center;
+        }
+    }
+    
+    
+    /* Responsive End */
+    
+    
